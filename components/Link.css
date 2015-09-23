@@ -1,0 +1,15 @@
+.linkBase, .linkBase:visited, .linkBase:active {
+	text-decoration: none;
+	cursor: pointer;
+	color: #ffab40;
+}
+
+.link {
+	composes: linkBase;
+	transition: color .3s ease;
+	text-transform: uppercase;
+}
+
+.link:hover {
+	color: #ffd8a6;
+}

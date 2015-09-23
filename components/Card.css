@@ -1,0 +1,40 @@
+@import './Colors.css';
+
+.card {
+	position: relative;
+	overflow: hidden;
+	margin: 0.5rem 0 1rem 0;
+	background-color: #fff;
+	transition: box-shadow .25s;
+	border-radius: 2px;
+	display: inline-block;
+	vertical-align: top;
+	width: 400px;
+
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+	background-color: var(--dark-blue);
+	margin-right: 20px;
+}
+
+.content {
+	padding: 20px;
+	border-radius: 0 0 2px 2px;
+	color: #fff;
+}
+
+.title {
+	line-height: 40px;
+	color: #fff;
+	font-size: 20px;
+	font-weight: 300;
+}
+
+.actions {
+	border-top: 1px solid var(--border-color);
+	padding: 20px;
+}
+
+.link {
+	composes: link from "./Link.css";
+	margin-right: 20px;
+}
