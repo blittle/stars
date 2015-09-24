@@ -22,7 +22,7 @@ module.exports = {
 			// },
 			{
 				test: /\.css$/,
-				loaders: ["style-loader", "css-loader?modules&localIdentName=[name]---[local]---[hash:base64:5]", "cssnext-loader"]
+				loaders: ["style-loader", "css-loader?modules&localIdentName=[name]__[local]__[hash:base64:5]", "cssnext-loader"]
 			},
 			{
 				test: /\.less$/,

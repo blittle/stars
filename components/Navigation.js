@@ -9,7 +9,7 @@ export default function Navigation() {
 				<ul className={styles.ul}>
 					<li className={styles.li}><a className={styles.a} href="#">Link 1</a></li>
 					<li className={styles.li}><a className={styles.a} href="#">Link 2</a></li>
-					<li className={styles.li}><a className={styles.a} href="#">Link 3</a></li>
+					<li className={styles.li}><a className={styles.a} href="https://github.com/blittle/stars">Source</a></li>
 				</ul>
 			</div>
 		</nav>

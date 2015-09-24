@@ -19544,8 +19544,8 @@
 						{ className: _NavigationCss2['default'].li },
 						_react2['default'].createElement(
 							'a',
-							{ className: _NavigationCss2['default'].a, href: '#' },
-							'Link 3'
+							{ className: _NavigationCss2['default'].a, href: 'https://github.com/blittle/stars' },
+							'Source'
 						)
 					)
 				)
@@ -19571,8 +19571,8 @@
 	if(false) {
 		// When the styles change, update the <style> tags
 		if(!content.locals) {
-			module.hot.accept("!!./../node_modules/css-loader/index.js?modules&localIdentName=[name]---[local]---[hash:base64:5]!./../node_modules/cssnext-loader/index.js!./Navigation.css", function() {
-				var newContent = require("!!./../node_modules/css-loader/index.js?modules&localIdentName=[name]---[local]---[hash:base64:5]!./../node_modules/cssnext-loader/index.js!./Navigation.css");
+			module.hot.accept("!!./../node_modules/css-loader/index.js?modules&localIdentName=[name]__[local]__[hash:base64:5]!./../node_modules/cssnext-loader/index.js!./Navigation.css", function() {
+				var newContent = require("!!./../node_modules/css-loader/index.js?modules&localIdentName=[name]__[local]__[hash:base64:5]!./../node_modules/cssnext-loader/index.js!./Navigation.css");
 				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 				update(newContent);
 			});
@@ -19590,16 +19590,16 @@
 	exports.i(__webpack_require__(162), undefined);
 	
 	// module
-	exports.push([module.id, ".Navigation---navigation---3EiNj {\n\tcolor: #fff;\n\tbackground-color: #ee6e73;\n\twidth: 100%;\n\theight: 56px;\n\tline-height: 56px;\n\tbox-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);\n\tdisplay: block;\n}\n\n.Navigation---wrapper---3Jcb9 {\n\tposition: relative;\n\theight: 100%;\n\tpadding: 0 20px;\n}\n\n.Navigation---logo---3tly3 {\n\tposition: absolute;\n\tcolor: #fff;\n\tdisplay: inline-block;\n\tfont-size: 30px;\n\tpadding: 0;\n\twhite-space: nowrap;\n\ttext-decoration: none;\n}\n\n.Navigation---ul---2BIia {\n\tmargin: 0;\n\tpadding: 0;\n\tfloat: right;\n\tlist-style-type: none;\n}\n\n.Navigation---li---3rnfF {\n\t-webkit-transition: background-color .3s;\n\t        transition: background-color .3s;\n\tfloat: left;\n\tpadding: 0;\n}\n\n.Navigation---li---3rnfF:hover {\n\tbackground-color: #ea454b;\n}\n\n.Navigation---a---gcWlU {\n\tfont-size: 16px;\n\tfont-size: 1rem;\n\tcolor: #fff;\n\tdisplay: block;\n\tpadding: 0 15px;\n}\n\n.Navigation---a---gcWlU, .Navigation---a---gcWlU:visited, a:active {\n\tcolor: #fff;\n}\n", ""]);
+	exports.push([module.id, ".Navigation__navigation__3EiNj {\n\tcolor: #fff;\n\tbackground-color: #ee6e73;\n\twidth: 100%;\n\theight: 56px;\n\tline-height: 56px;\n\tbox-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);\n\tdisplay: block;\n}\n\n.Navigation__wrapper__3Jcb9 {\n\tposition: relative;\n\theight: 100%;\n\tpadding: 0 20px;\n}\n\n.Navigation__logo__3tly3 {\n\tposition: absolute;\n\tcolor: #fff;\n\tdisplay: inline-block;\n\tfont-size: 30px;\n\tpadding: 0;\n\twhite-space: nowrap;\n\ttext-decoration: none;\n}\n\n.Navigation__ul__2BIia {\n\tmargin: 0;\n\tpadding: 0;\n\tfloat: right;\n\tlist-style-type: none;\n}\n\n.Navigation__li__3rnfF {\n\t-webkit-transition: background-color .3s;\n\t        transition: background-color .3s;\n\tfloat: left;\n\tpadding: 0;\n}\n\n.Navigation__li__3rnfF:hover {\n\tbackground-color: #ea454b;\n}\n\n.Navigation__a__gcWlU {\n\tfont-size: 16px;\n\tfont-size: 1rem;\n\tcolor: #fff;\n\tdisplay: block;\n\tpadding: 0 15px;\n}\n\n.Navigation__a__gcWlU, .Navigation__a__gcWlU:visited, a:active {\n\tcolor: #fff;\n}\n", ""]);
 	
 	// exports
 	exports.locals = {
-		"navigation": "Navigation---navigation---3EiNj",
-		"wrapper": "Navigation---wrapper---3Jcb9",
-		"logo": "Navigation---logo---3tly3",
-		"ul": "Navigation---ul---2BIia",
-		"li": "Navigation---li---3rnfF",
-		"a": "Navigation---a---gcWlU " + __webpack_require__(162).locals["linkBase"] + ""
+		"navigation": "Navigation__navigation__3EiNj",
+		"wrapper": "Navigation__wrapper__3Jcb9",
+		"logo": "Navigation__logo__3tly3",
+		"ul": "Navigation__ul__2BIia",
+		"li": "Navigation__li__3rnfF",
+		"a": "Navigation__a__gcWlU " + __webpack_require__(162).locals["linkBase"] + ""
 	};
 
 /***/ },
@@ -19667,12 +19667,12 @@
 	
 	
 	// module
-	exports.push([module.id, ".Link---linkBase---3yZnD, .Link---linkBase---3yZnD:visited, .Link---linkBase---3yZnD:active {\n\ttext-decoration: none;\n\tcursor: pointer;\n\tcolor: #ffab40;\n}\n\n.Link---link---3kKe2 {\n\ttransition: color .3s ease;\n\ttext-transform: uppercase;\n}\n\n.Link---link---3kKe2:hover {\n\tcolor: #ffd8a6;\n}\n", ""]);
+	exports.push([module.id, ".Link__linkBase__3yZnD, .Link__linkBase__3yZnD:visited, .Link__linkBase__3yZnD:active {\n\ttext-decoration: none;\n\tcursor: pointer;\n\tcolor: #ffab40;\n}\n\n.Link__link__3kKe2 {\n\ttransition: color .3s ease;\n\ttext-transform: uppercase;\n}\n\n.Link__link__3kKe2:hover {\n\tcolor: #ffd8a6;\n}\n", ""]);
 	
 	// exports
 	exports.locals = {
-		"linkBase": "Link---linkBase---3yZnD",
-		"link": "Link---link---3kKe2 Link---linkBase---3yZnD"
+		"linkBase": "Link__linkBase__3yZnD",
+		"link": "Link__link__3kKe2 Link__linkBase__3yZnD"
 	};
 
 /***/ },
@@ -20020,8 +20020,8 @@
 	if(false) {
 		// When the styles change, update the <style> tags
 		if(!content.locals) {
-			module.hot.accept("!!./../node_modules/css-loader/index.js?modules&localIdentName=[name]---[local]---[hash:base64:5]!./../node_modules/cssnext-loader/index.js!./Card.css", function() {
-				var newContent = require("!!./../node_modules/css-loader/index.js?modules&localIdentName=[name]---[local]---[hash:base64:5]!./../node_modules/cssnext-loader/index.js!./Card.css");
+			module.hot.accept("!!./../node_modules/css-loader/index.js?modules&localIdentName=[name]__[local]__[hash:base64:5]!./../node_modules/cssnext-loader/index.js!./Card.css", function() {
+				var newContent = require("!!./../node_modules/css-loader/index.js?modules&localIdentName=[name]__[local]__[hash:base64:5]!./../node_modules/cssnext-loader/index.js!./Card.css");
 				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 				update(newContent);
 			});
@@ -20039,15 +20039,15 @@
 	exports.i(__webpack_require__(162), undefined);
 	
 	// module
-	exports.push([module.id, ".Card---card---1olur {\n\tposition: relative;\n\toverflow: hidden;\n\tmargin: 8px 0 16px 0;\n\tmargin: 0.5rem 0 1rem 0;\n\tbackground-color: #fff;\n\t-webkit-transition: box-shadow .25s;\n\t        transition: box-shadow .25s;\n\tborder-radius: 2px;\n\tdisplay: inline-block;\n\tvertical-align: top;\n\twidth: 400px;\n\n\tbox-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);\n\tbackground-color: #546e7a;\n\tmargin-right: 20px;\n}\n\n.Card---content---2g7x1 {\n\tpadding: 20px;\n\tborder-radius: 0 0 2px 2px;\n\tcolor: #fff;\n}\n\n.Card---title---252Rc {\n\tline-height: 40px;\n\tcolor: #fff;\n\tfont-size: 20px;\n\tfont-weight: 300;\n}\n\n.Card---actions---1sqgf {\n\tborder-top: 1px solid rgba(160, 160, 160, 0.2);\n\tpadding: 20px;\n}\n\n.Card---link---hGLj8 {\n\tmargin-right: 20px;\n}\n", ""]);
+	exports.push([module.id, ".Card__card__1olur {\n\tposition: relative;\n\toverflow: hidden;\n\tmargin: 8px 0 16px 0;\n\tmargin: 0.5rem 0 1rem 0;\n\tbackground-color: #fff;\n\t-webkit-transition: box-shadow .25s;\n\t        transition: box-shadow .25s;\n\tborder-radius: 2px;\n\tdisplay: inline-block;\n\tvertical-align: top;\n\twidth: 400px;\n\n\tbox-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);\n\tbackground-color: #546e7a;\n\tmargin-right: 20px;\n}\n\n.Card__content__2g7x1 {\n\tpadding: 20px;\n\tborder-radius: 0 0 2px 2px;\n\tcolor: #fff;\n}\n\n.Card__title__252Rc {\n\tline-height: 40px;\n\tcolor: #fff;\n\tfont-size: 20px;\n\tfont-weight: 300;\n}\n\n.Card__actions__1sqgf {\n\tborder-top: 1px solid rgba(160, 160, 160, 0.2);\n\tpadding: 20px;\n}\n\n.Card__link__hGLj8 {\n\tmargin-right: 20px;\n}\n", ""]);
 	
 	// exports
 	exports.locals = {
-		"card": "Card---card---1olur",
-		"content": "Card---content---2g7x1",
-		"title": "Card---title---252Rc",
-		"actions": "Card---actions---1sqgf",
-		"link": "Card---link---hGLj8 " + __webpack_require__(162).locals["link"] + ""
+		"card": "Card__card__1olur",
+		"content": "Card__content__2g7x1",
+		"title": "Card__title__252Rc",
+		"actions": "Card__actions__1sqgf",
+		"link": "Card__link__hGLj8 " + __webpack_require__(162).locals["link"] + ""
 	};
 
 /***/ },
@@ -20066,8 +20066,8 @@
 	if(false) {
 		// When the styles change, update the <style> tags
 		if(!content.locals) {
-			module.hot.accept("!!./../node_modules/css-loader/index.js?modules&localIdentName=[name]---[local]---[hash:base64:5]!./../node_modules/cssnext-loader/index.js!./MainContent.css", function() {
-				var newContent = require("!!./../node_modules/css-loader/index.js?modules&localIdentName=[name]---[local]---[hash:base64:5]!./../node_modules/cssnext-loader/index.js!./MainContent.css");
+			module.hot.accept("!!./../node_modules/css-loader/index.js?modules&localIdentName=[name]__[local]__[hash:base64:5]!./../node_modules/cssnext-loader/index.js!./MainContent.css", function() {
+				var newContent = require("!!./../node_modules/css-loader/index.js?modules&localIdentName=[name]__[local]__[hash:base64:5]!./../node_modules/cssnext-loader/index.js!./MainContent.css");
 				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 				update(newContent);
 			});
@@ -20085,11 +20085,11 @@
 	
 	
 	// module
-	exports.push([module.id, ".MainContent---mainContent---2t1Xs {\n\tpadding: 40px;\n}\n", ""]);
+	exports.push([module.id, ".MainContent__mainContent__2t1Xs {\n\tpadding: 40px;\n}\n", ""]);
 	
 	// exports
 	exports.locals = {
-		"mainContent": "MainContent---mainContent---2t1Xs"
+		"mainContent": "MainContent__mainContent__2t1Xs"
 	};
 
 /***/ },
@@ -20108,8 +20108,8 @@
 	if(false) {
 		// When the styles change, update the <style> tags
 		if(!content.locals) {
-			module.hot.accept("!!./../node_modules/css-loader/index.js?modules&localIdentName=[name]---[local]---[hash:base64:5]!./../node_modules/cssnext-loader/index.js!./App.css", function() {
-				var newContent = require("!!./../node_modules/css-loader/index.js?modules&localIdentName=[name]---[local]---[hash:base64:5]!./../node_modules/cssnext-loader/index.js!./App.css");
+			module.hot.accept("!!./../node_modules/css-loader/index.js?modules&localIdentName=[name]__[local]__[hash:base64:5]!./../node_modules/cssnext-loader/index.js!./App.css", function() {
+				var newContent = require("!!./../node_modules/css-loader/index.js?modules&localIdentName=[name]__[local]__[hash:base64:5]!./../node_modules/cssnext-loader/index.js!./App.css");
 				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 				update(newContent);
 			});
@@ -20127,11 +20127,11 @@
 	
 	
 	// module
-	exports.push([module.id, ".App---app---f3G1V {\n\tfont-family: verdana, san-serif;\n}\n\nhtml, body {\n\tmargin: 0;\n\tpadding: 0;\n}\n", ""]);
+	exports.push([module.id, ".App__app__f3G1V {\n\tfont-family: verdana, san-serif;\n}\n\nhtml, body {\n\tmargin: 0;\n\tpadding: 0;\n}\n", ""]);
 	
 	// exports
 	exports.locals = {
-		"app": "App---app---f3G1V"
+		"app": "App__app__f3G1V"
 	};
 
 /***/ }
