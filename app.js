@@ -1,5 +1,3 @@
-// import './app.css';
-// import './app.less';
 import React from 'react';
 import ReactDOM from 'react-dom';
 

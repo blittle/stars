@@ -16,17 +16,9 @@ module.exports = {
 				exclude: /node_modules/,
 				loader: "babel-loader"
 			},
-			// {
-			// 	test: /\.css$/,
-			// 	loader: ExtractTextPlugin.extract("style-loader", "css-loader?root=.|!cssnext-loader")
-			// },
 			{
 				test: /\.css$/,
 				loaders: ["style-loader", "css-loader?modules&localIdentName=[name]__[local]__[hash:base64:5]", "cssnext-loader"]
-			},
-			{
-				test: /\.less$/,
-				loader: ExtractTextPlugin.extract("style-loader", "css-loader?root=.|!less-loader")
 			}
 		]
 	},
